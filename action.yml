@@ -4,6 +4,8 @@ author: 'notiz.dev'
 inputs:
   path:
     description: 'path to json file'
+  json:
+    description: 'json string'
   prop_path:
     description: 'dot separated property key (e.g.: scripts.build)'
 runs:
